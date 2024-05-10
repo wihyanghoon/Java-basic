@@ -1,10 +1,28 @@
-Java-basic
+## Java-basic
 
-oop-basic-syntax
+### oop-basic-syntax
 
 * class & date
-  * class명은 카멜표기법
-  * class안의 변수를 멤버변수 혹은 필드라고 함
+  * The class name is conventionally in using <code>camel case</code>.
+  * Variables within a class are usually called member <code>variables</code> or <code>fields</code>.
+  * <code>User-Defined Types</code> represents the form of a corresponding value, such as an int modeled after the form of a class and a string.
+  * What is made of class is called an <code>object</code> or <code>instance</code>
+  ```java
+  // 관례적으로 카멜표기법을 사용, 첫문자는 대문자로 한다.
+  // 클래스는 설계도라 생각한다.
+  class Student {
+    // 멤버 변수 or 필드
+    String name = "wi-hyang-hoon";
+    int age = 30;
+  }
+  
+  class Main {
+    public static void main(String[] args){
+      // 사용자정의 타입으로 생성
+      Student student1 = new Student();
+    }
+  }
+  ```
 * primitive type & reference type
 * oop
 * constructor
