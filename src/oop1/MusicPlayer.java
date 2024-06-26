@@ -14,12 +14,12 @@ public class MusicPlayer {
         System.out.println("음악 플레이어를 시작합니다.");
     }
 
-    void VoluneUp () {
+    void VolumeUp () {
         volume++;
         System.out.println("현재 볼륨 : " + volume);
     }
 
-    void VoluneDown () {
+    void VolumeDown () {
         volume--;
         System.out.println("현재 볼륨 : " + volume);
     }
