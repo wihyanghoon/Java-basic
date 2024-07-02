@@ -3,12 +3,12 @@ package construct;
 public class MemberInit {
     String name;
     int age;
-    int gread;
+    int grad;
 
     //추가
-    void InitMember (MemberInit member, String name, int age, int gread) {
+    void InitMember (MemberInit member, String name, int age, int grad) {
         this.name = name;
         this.age = age;
-        this.gread = gread;
+        this.grad = grad;
     }
 }

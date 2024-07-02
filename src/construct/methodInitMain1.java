@@ -6,12 +6,12 @@ public class methodInitMain1 {
 
         member.name = "wi hyanng hoon";
         member.age = 18;
-        member.gread = 80;
+        member.grad = 80;
 
         MemberInit member2 = new MemberInit();
 
         member2.name = "wi een kyung";
         member2.age = 18;
-        member2.gread = 80;
+        member2.grad = 80;
     }
 }

@@ -13,9 +13,9 @@ public class methodInitMain2 {
         }
     }
 
-    static void InitMember (MemberInit member, String name, int age, int gread) {
+    static void InitMember (MemberInit member, String name, int age, int grad) {
         member.name = name;
         member.age = age;
-        member.gread = gread;
+        member.grad = grad;
     }
 }

@@ -3,12 +3,17 @@ package construct;
 public class MemberConstruct {
     String name;
     int age;
-    int grade;
+    int grad;
 
-    MemberConstruct(String name, int age, int grade) {
-        System.out.println("생성사 호출 name=" + name + ", age=" + age + ", grade=" + grade);
+    //추가
+    MemberConstruct(String name, int age) {
+        this(name, age, 50);
+    }
+
+    MemberConstruct(String name, int age, int grad) {
+        System.out.println("생성사 호출 name=" + name + ", age=" + age + ", grad=" + grad);
         this.name = name;
         this.age = age;
-        this.grade = grade;
+        this.grad = grad;
     }
 }
